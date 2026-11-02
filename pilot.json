@@ -1,0 +1,15 @@
+{
+  "version": "0.1.1",
+  "notes": "Moozg 0.1.1 — wersja pilotażowa dla testerów\n\n- Aktualizacje aplikacji: sprawdzanie nowej wersji, pobieranie po zgodzie i potwierdzona instalacja z ochroną niezapisanych danych.\n- Komunikaty od autora w dzwonku, z lokalnym oznaczaniem przeczytania i archiwum dostępnym bez sieci.\n- Poprawione odrzucanie nieprawidłowych dat w kanale komunikatów.\n\nInstalatory: macOS Apple Silicon (DMG) i Windows 64-bit (instalator dla bieżącego użytkownika). Pierwszą instalację wykonuje się ręcznie; zapisane dane pozostają na komputerze. Paczka macOS jest podpisana ad hoc, bez notaryzacji Apple, a instalator Windows nie ma podpisu wydawcy, więc system może pokazać ostrzeżenie. Na macOS po aktualizacji aplikacja może poprosić o ponowne dopuszczenie jej do własnego wpisu pęku kluczy.",
+  "pub_date": "2026-11-02T22:24:29.020Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.1/Moozg_0.1.1_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTZ2MnpYbTd0cEw0NHlXTnNjb0FZZmNUTFM0OXFCZEJqdWxqdVk0S0Q0Z1lWK3Z0eWZ2SGJZdG53T2ZmajNqdjhFcE82dFFNYlJRSFRKcG9nKytFZXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ5Nzg0CWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xCi92UzRadEY1TFNJZkhzVkRxMVowYlA4d0lVMjN1c2pNR3dwYjJvcllnUWhZdGIwMmtob2pqZkorVmRXNlg3ekllUHkvYnJqRjgzSjdoMDR6RXo1K0JRPT0K"
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.1/Moozg_0.1.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQStPZkc4bGVqSTRJcnBsWkJHT0xJT0JRNGZvYVR5SExuYm9BMWo5Mm9rVnh0OENNK0JmNnUwL2twWE5JRnhJbWtLaW94VG1YbjhxRUdDR0lxeXNBakF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjU4MjU3CWZpbGU6TW9vemdfMC4xLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4xCk1uRHZleDN3KzdxMlY4NW50dG9kc2tuNXRKSWlVTlFhUk9JZ2tpK3R0a1ZYeVl3bnJRTlJqRVBLUFowZVFWWkFVRVc1ZlVlaFNPMmRrOHNaVXJPTERRPT0K"
+    }
+  }
+}
