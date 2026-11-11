@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>Moozg · Panel licencji</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      max-width: 480px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #f8fafc;
+      margin-bottom: 0.25rem;
+    }
+
+    .subtitle {
+      font-size: 0.8125rem;
+      color: #94a3b8;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      background: #2456ad;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 7px;
+      transition: background 0.15s;
+    }
+
+    .btn-primary:hover { background: #2563eb; }
+
+    .btn-primary:focus-visible {
+      outline: 3px solid #93c5fd;
+      outline-offset: 3px;
+    }
+
+    .note {
+      font-size: 0.8125rem;
+      color: #94a3b8;
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #334155;
+      margin: 1.25rem 0;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #a9bad0;
+      margin-bottom: 0.75rem;
+    }
+
+    .step {
+      font-size: 0.8125rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+      margin-bottom: 0.6rem;
+    }
+
+    .step:last-child { margin-bottom: 0; }
+
+    code {
+      font-family: ui-monospace, "Cascadia Code", Menlo, monospace;
+      font-size: 0.8rem;
+      background: #0f172a;
+      color: #7dd3fc;
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+      border: 1px solid #1e3a5f;
+      word-break: break-all;
+    }
+
+    a.link {
+      color: #60a5fa;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a.link:hover { color: #93c5fd; }
+
+    a.link:focus-visible {
+      outline: 2px solid #93c5fd;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    .badge {
+      font-size: 0.6875rem;
+      color: #94a3b8;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 3px;
+      padding: 0.1em 0.4em;
+      vertical-align: middle;
+      margin-left: 0.3em;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Moozg</h1>
+    <p class="subtitle">Zakładka właściciela · Panel licencji</p>
+
+    <div class="card">
+      <a href="http://127.0.0.1:4790/" class="btn-primary">Otwórz panel licencji</a>
+
+      <p class="note">
+        Działa tylko wtedy, gdy panel licencji jest uruchomiony na&nbsp;tym samym komputerze.
+        Logowanie zdalne nie jest dostępne.
+      </p>
+
+      <hr class="divider">
+
+      <p class="section-label">Panel nie odpowiada?</p>
+
+      <p class="step">
+        <strong>Mac:</strong> Uruchom plik
+        <code>scripts/otworz-panel-licencji.command</code>
+        z&nbsp;lokalnego klonu repozytorium
+        (dwuklik w&nbsp;Finderze lub <code>open</code> w&nbsp;terminalu).
+        Szczegóły:
+        <a
+          href="https://github.com/patrygu/moozg/blob/main/docs/licencje-instrukcja-wlasciciela.md"
+          class="link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >instrukcja w&nbsp;repozytorium<span class="badge">prywatne repo</span></a>.
+      </p>
+
+      <p class="step">
+        <strong>Wiersz poleceń:</strong> w&nbsp;katalogu projektu wpisz<br>
+        <code>npm run licenses:admin</code>
+      </p>
+    </div>
+  </main>
+</body>
+</html>
