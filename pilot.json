@@ -1,15 +1,15 @@
 {
-  "version": "0.1.2",
-  "notes": "Moozg 0.1.2: poprawione zapisywanie i odzyskiwanie notatek, model kobiety, Konektom i Popkultura. Dodaliśmy nowe ścieżki i przypadki oraz odświeżyliśmy quiz, Literaturę i nawigację w atlasie.",
-  "pub_date": "2026-11-11T23:28:03.361Z",
+  "version": "0.1.3",
+  "notes": "Moozg 0.1.3 naprawia pobieranie aktualizacji z GitHuba. Od tej wersji kolejne aktualizacje zainstalujesz w Moozg jednym kliknięciem: O aplikacji → Ustawienia → Aktualizacje. Notatki, ustawienia i licencja zostają bez zmian.",
+  "pub_date": "2026-11-12T08:56:21.736Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.2/Moozg_0.1.2_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQThpaENhL0svaWpyNUdHdW1ZL1lDa2N5Nm82dm5kZ0ZPSDdPZGNaSnJESDdkN1FINUkrVm05MjcxRWJLS21Da0lxcGUva3BLNXFpNjVnZWw3SnRCZVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDM5NjgzCWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4yCnVBVlJIeWlId0hCMmNBS1RackxTdUlJUWR3K0dJa3JFWE1HbjBUbm1JWEYrR3o3MEg5eEZ0VUFLZElMWnZXSFdPZ0hzK0x0b0FIVXlURndKcXpReEN3PT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.3/Moozg_0.1.3_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTdFeXBnSlBjNTlFYndWbDFRVStQVXZ0NEx4ZlN1U0ExYkRTVCtMYzE5NytRaTIvT0gyR2wyYzRaampIZWs5V21vcGJVaGUyakdac2lSbjdjaW1XYlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDczNzgxCWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4zCjBRQ3pOaVR5Qklad1F3ZmVQaEs5dDZzWGd6akpDL3lRcWY4ZlltSFFPVmJYZmM0MWZybWd1cjVBNkRRVjRHMUZxclVDTFROdEZiYk5uNWtSWHVObERnPT0K"
     },
     "windows-x86_64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.2/Moozg_0.1.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTk0c2VtUSt1QTJyRzZoQU9Zam93OTJRalk0RFg1akRhYUdmOXdpaUlaNVVIS09vOWFrMmNjRUpqdkduUUtLQ1ZNOTNMYUd1SW43RGVvU0tmSlpOd0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDM5NjgzCWZpbGU6TW9vemdfMC4xLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4yCkJ2a0t0c1VqRGI2QjRoN3BsT2FJYXZHNHVBT2pLWUw0aXRsdjlPQXVCR2VNMldyZlhtZDJoSGdSTmZCY0J0Ull0aUR5M2ZOKzA4dWk2SWNvV2JnUUN3PT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.3/Moozg_0.1.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTBZWG85ZmJBdkhNQmpnajVjNVZocmxqTUZJS3pWMEJKWU9QN3l6R2FlS0xrMUMvVXc1TWZzakxET3hqTjZ2azQ4VW12eGlhZ0ZuTUVtSjNkZnpCaEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDczNzgxCWZpbGU6TW9vemdfMC4xLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4zClMzT01uTmhuc0toV3FsYWF4L0Y1dXYzaGIwL2luWCtKVmp1Znh0cVFRR0tSVGJpWk83N1c3LzVjeml1WFRQa1ZDc0xwcXNkbjVnNWdDM2p6QkhmNENBPT0K"
     }
   }
 }
