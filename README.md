@@ -41,7 +41,7 @@ Instalator nie ma podpisu wydawcy Windows (Authenticode). SmartScreen może poka
 
 Wklej kod otrzymany osobno od autora i wybierz „Aktywuj”. Pierwsza aktywacja wymaga internetu. Kod przypisuje dostęp do jednej instalacji, więc nie udostępniaj go innym osobom. Kolejne uruchomienia nie wymagają kodu.
 
-Nowe wersje sprawdzisz w O aplikacji → Ustawienia → Aktualizacje. Pobranie i instalacja zawsze wymagają Twojej zgody. Zgłaszając błąd, podaj wersję Moozg, system, co kliknięto i treść komunikatu; nie przesyłaj kodu licencyjnego, haseł ani prywatnych notatek.
+Przejście z Moozg 0.1.1 na 0.1.2 wymaga ręcznej instalacji z linków powyżej. Aktualizator w 0.1.1 zatrzymuje pobieranie na przekierowaniu GitHuba. Zamknij aplikację przed instalacją i zastąp poprzednią kopię w Programach na Macu albo uruchom instalator na Windows. Zgłaszając błąd, podaj wersję Moozg, system, co kliknięto i treść komunikatu; nie przesyłaj kodu licencyjnego, haseł ani prywatnych notatek.
 
 ## Sumy i podpisy
 
