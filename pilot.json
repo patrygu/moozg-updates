@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
-  "notes": "Moozg 0.1.3 naprawia pobieranie aktualizacji z GitHuba. Od tej wersji kolejne aktualizacje zainstalujesz w Moozg jednym kliknięciem: O aplikacji → Ustawienia → Aktualizacje. Notatki, ustawienia i licencja zostają bez zmian.",
-  "pub_date": "2026-11-12T08:56:21.736Z",
+  "version": "0.1.4",
+  "notes": "Moozg 0.1.4 odświeża widok atlasu i nawigację, poprawia proporcje i postawę modelu kobiety oraz uzupełnia ilustracje w przypadkach klinicznych. Konektom ma czytelniejszy układ, łagodniejsze przybliżanie i dokładniejsze przeciąganie.\n\nW Moozg 0.1.3 i nowszym otwórz O aplikacji → Ustawienia → Aktualizacje. Jeśli używasz 0.1.1 lub 0.1.2, pobierz instalator DMG dla Maca z Apple Silicon lub EXE dla Windows x64 i zainstaluj go na istniejącej wersji.",
+  "pub_date": "2026-11-12T13:47:03.193Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.3/Moozg_0.1.3_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTdFeXBnSlBjNTlFYndWbDFRVStQVXZ0NEx4ZlN1U0ExYkRTVCtMYzE5NytRaTIvT0gyR2wyYzRaampIZWs5V21vcGJVaGUyakdac2lSbjdjaW1XYlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDczNzgxCWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4zCjBRQ3pOaVR5Qklad1F3ZmVQaEs5dDZzWGd6akpDL3lRcWY4ZlltSFFPVmJYZmM0MWZybWd1cjVBNkRRVjRHMUZxclVDTFROdEZiYk5uNWtSWHVObERnPT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.4/Moozg_0.1.4_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTZzcElOV0JFYmt1Ym5aaW41dUhRQjB4WmxsSVg1dndUOEFFaXlaQ3RPMTZuS2cyZENNRFg4YTNXNmZsYnVYRktEWm5rL0FPWGFBYzhuZ1l1WFphMmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDg5MTUzCWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS40CmFQR2R1eTBKZVc2YVRKUCt4dExBcUYvNnBtUWRiRjVnaW5uTTdoRlE5RnhsaVRrSEdzeVErUWVIdWVBRGVGU3lQTmErY0NBd1F6aFVtMmx6SlNUUEF3PT0K"
     },
     "windows-x86_64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.3/Moozg_0.1.3_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTBZWG85ZmJBdkhNQmpnajVjNVZocmxqTUZJS3pWMEJKWU9QN3l6R2FlS0xrMUMvVXc1TWZzakxET3hqTjZ2azQ4VW12eGlhZ0ZuTUVtSjNkZnpCaEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDczNzgxCWZpbGU6TW9vemdfMC4xLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4zClMzT01uTmhuc0toV3FsYWF4L0Y1dXYzaGIwL2luWCtKVmp1Znh0cVFRR0tSVGJpWk83N1c3LzVjeml1WFRQa1ZDc0xwcXNkbjVnNWdDM2p6QkhmNENBPT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.4/Moozg_0.1.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTZjTXNITjJZcGdUSWlTUk00UVU1TldSSjJvQVB1MCtnajk4MTA5Q1NaM2hGcGpJMWtjbk1PZmd3N01jaWhETzJBL0Vka1Zxc2V4ekx1Y0VzUk5VZGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDkwMzE0CWZpbGU6TW9vemdfMC4xLjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS40ClE3azZNR2F5S2pFQlYwZ2hwdXJ5bklKZzNLeWlDcXZ0ZGRmZUIxVm5zdFQzeFVFMnYrRnI2SlBXS2hRdXE5c3V0ZHFNT2dpSDBYUnBJWUVFN2JGTER3PT0K"
     }
   }
 }
