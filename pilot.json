@@ -1,15 +1,15 @@
 {
-  "version": "0.1.5",
-  "notes": "Moozg 0.1.5 przebudowuje Konektom: zamiast plątaniny linii jest jedna czytelna mapa (tematy po lewej, struktury po prawej), macierz temat × struktura i porównanie dwóch tematów. Barwa linii oznacza rodzaj relacji, grubość pewność, a kliknięta linia otwiera wynik badania. Popkultura ma siatkę utworów i filtr tematu, Literatura zwarty pasek filtrów i kopiowanie cytowań, a model kobiety nową, kompletną sylwetkę. W ustawieniach można włączyć ciche dźwięki najechania i obrotu modelu.\n\nNa Macu aplikacja przestaje prosić o hasło pęku kluczy po każdej aktualizacji. Przy pierwszym uruchomieniu tej wersji macOS zapyta jeszcze raz: wybierz „Pozwól”. Notatki, ustawienia i licencja zostają bez zmian.\n\nW Moozg 0.1.3 i nowszym otwórz O aplikacji → Ustawienia → Aktualizacje. Jeśli używasz 0.1.1 lub 0.1.2, pobierz instalator DMG dla Maca z Apple Silicon lub EXE dla Windows x64 i zainstaluj go na istniejącej wersji.",
-  "pub_date": "2026-11-13T18:30:44.227Z",
+  "version": "0.1.6",
+  "notes": "Moozg 0.1.6 rozszerza Popkulturę do 100 utworów: dochodzi 55 nowych filmów, seriali i książek, każdy z opisem „Co pokazuje utwór”, „Jak to czytać” i odsyłaczami do atlasu. Na kafelkach i w czytniku od razu widać, czy to film, serial, czy książka. Notatki, ustawienia i licencja zostają bez zmian.\n\nW Moozg 0.1.3 i nowszym otwórz O aplikacji → Ustawienia → Aktualizacje. Jeśli używasz 0.1.1 lub 0.1.2, pobierz instalator DMG dla Maca z Apple Silicon lub EXE dla Windows x64 i zainstaluj go na istniejącej wersji.",
+  "pub_date": "2026-11-14T11:58:45.096Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.5/Moozg_0.1.5_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTZLTGxvVXRucENvQUR5S09zZ2ZuMXY2aS9sTmhPUjJYNWtqdmVlVDRXbmJZUWdBb3hPUjNvUHU1YVplNko5S2R0MlZycjVEY0Y3WWF4NlBCSk1OMWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTk0NjQ0CWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS41CjhDQmpRcFYwVFdBVjh4dXR0T0J5R3FINGNuY3JuTE5vQ2dKb1g0bFIyRGdmcnJGRElTTW41WHdVbzVSdFc2a2dtdEZYYVU4TDRVb1hjRTJremVLWkF3PT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.6/Moozg_0.1.6_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTdtMFI3WWVzOXVhd1FORjJKbkRKbXczWTBrcG5tM3JlU2lJN211Wjg1dEdOT2Z6a2Q3NzNQV0Z3cVBoL2ozeWtwWGhLckp1VjV4dUdGZUlLV0s3YndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjU3NTI0CWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS42Cll5QjJ2dncySnlLdEZ6RGMvcWNlY0kxQXJZRENtYkdkOVllRmx6dml3MmR4UVl2WEFYcFJtWGFOdHU5TkVvOVZTZWo0cGpYOG9UcVpOR0ZhRGhNckJ3PT0K"
     },
     "windows-x86_64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.5/Moozg_0.1.5_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTFzRGZrTncvRWpZT3JLVVVYU1UwZ0pRVi8vbG5CMGlDQnZSQlpJbEd1Smt2MlA0TU1SWTJuZ2owZDlMd09ObXRidGM0U0kyTndnMGZORlUwYTdHS2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTk0NjQ0CWZpbGU6TW9vemdfMC4xLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS41ClNLa21zYjkwZmx2Mll5QmY1M1dpcXFBTWJuaUlNVHl6am4zRGVvVTA2Rm1oWDFWcUkvQ0FjcnpSbFpDUHJRdlhvM1J0amtQU1ZQV1U5LzdZSElJekFBPT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.6/Moozg_0.1.6_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQThLWGhPZ0d4NG5HblVLTERMYysrSXZuQ2kzM3M5akpPamZieVhaRFJnbFF4RFVaRmRKbHl1Q3BpN1QrTW1kaEwrZWNydm5vcUtpa25jd2VOOHp5endvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjU3NTI1CWZpbGU6TW9vemdfMC4xLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS42Ckk5enJJQzRRWXBjVlNrVG1BSjUwVHZ2WmlvRFJVbEcvQStHRVZXQzRuNDRIY3B2VEl6NmRzRWRkVkx6WktYanNaWGxWdUo2YkJpeGpZL0ZWeGpNWkJBPT0K"
     }
   }
 }
