@@ -4,15 +4,15 @@ To repozytorium zawiera wyłącznie gotowe pliki instalacyjne Moozg, ich podpisy
 
 Moozg to edukacyjna aplikacja do eksploracji zależności między strukturami mózgu, funkcjami psychicznymi, zaburzeniami, substancjami i ciałem. Nie jest narzędziem diagnostycznym ani medycznym. Do uruchomienia potrzebny jest indywidualny kod licencyjny od autora; pobranie instalatora go nie zastępuje.
 
-## Wersja 0.1.6 (pilotaż)
+## Wersja 0.1.7 (pilotaż)
 
-- **Mac z procesorem Apple Silicon (M1 i nowsze), macOS 11 lub nowszy:** [Moozg_0.1.6_aarch64.dmg](https://github.com/patrygu/moozg-updates/releases/download/v0.1.6/Moozg_0.1.6_aarch64.dmg)
-- **Windows 10 lub 11, 64-bit:** [Moozg_0.1.6_x64-setup.exe](https://github.com/patrygu/moozg-updates/releases/download/v0.1.6/Moozg_0.1.6_x64-setup.exe)
-- [Informacje o wydaniu i sumy kontrolne](https://github.com/patrygu/moozg-updates/releases/tag/v0.1.6)
+- **Mac z procesorem Apple Silicon (M1 i nowsze), macOS 11 lub nowszy:** [Moozg_0.1.7_aarch64.dmg](https://github.com/patrygu/moozg-updates/releases/download/v0.1.7/Moozg_0.1.7_aarch64.dmg)
+- **Windows 10 lub 11, 64-bit:** [Moozg_0.1.7_x64-setup.exe](https://github.com/patrygu/moozg-updates/releases/download/v0.1.7/Moozg_0.1.7_x64-setup.exe)
+- [Informacje o wydaniu i sumy kontrolne](https://github.com/patrygu/moozg-updates/releases/tag/v0.1.7)
 
 Mac z procesorem Intel, Windows na ARM i Linux nie są objęte tą wersją.
 
-**Stan sprawdzenia (14 listopada 2026):**
+**Stan sprawdzenia (15 listopada 2026):**
 
 - macOS: sprawdzono podpis aplikacji dla Apple Silicon, podpis paczki aktualizacji i sumę obrazu DMG.
 - Windows: instalator zbudowano i zainstalowano automatycznie na czystym Windows Server 2025 x64 (GitHub Actions), a zainstalowana aplikacja uruchomiła się do ekranu aktywacji. Ręczny odbiór na komputerze z Windows 10/11 (aktywacja, model 3D, zapis danych, ostrzeżenia systemu) jeszcze trwa.
@@ -25,13 +25,18 @@ Mac z procesorem Intel, Windows na ARM i Linux nie są objęte tą wersją.
 2. Przeciągnij Moozg do folderu Programy.
 3. Wysuń obraz dysku i uruchom Moozg z Programów.
 
-Wersja pilotażowa nie ma notaryzacji Apple (podpis ad hoc). Jeśli macOS zablokuje pierwsze otwarcie, a plik pochodzi z tego wydania i ma zgodną sumę, otwórz Ustawienia systemowe → Prywatność i ochrona i wybierz „Otwórz mimo to” dla Moozg. Nie wyłączaj zabezpieczeń całego systemu. Jeśli tej opcji nie ma albo pojawia się inny komunikat, zgłoś go autorowi.
+Wersja pilotażowa nie ma notaryzacji Apple (podpis ad hoc), dlatego macOS ostrzega przy pierwszym otwarciu. Jeśli plik pochodzi z tego wydania i ma zgodną sumę:
 
-Przy zgodzie na dostęp Moozg do jego wpisu w pęku kluczy hasło wpisujesz wyłącznie w oknie macOS. Po aktualizacji aplikacja może poprosić o tę zgodę ponownie.
+- **macOS 11–14:** w Programach kliknij Moozg z wciśniętym klawiszem Control (albo prawym przyciskiem), wybierz „Otwórz”, a w oknie ostrzeżenia jeszcze raz „Otwórz”. Jeśli nie ma przycisku „Otwórz”, zamknij ostrzeżenie i od razu wejdź w Preferencje systemowe → Bezpieczeństwo i prywatność → zakładka „Ogólne” (macOS 11 i 12) albo Ustawienia systemowe → Prywatność i ochrona (macOS 13 i 14), a potem wybierz „Otwórz mimo to”. Przycisk jest widoczny przez około godzinę po próbie uruchomienia.
+- **macOS 15 lub nowszy:** spróbuj uruchomić Moozg i zamknij ostrzeżenie. Otwórz Ustawienia systemowe → Prywatność i ochrona, przewiń na dół, wybierz „Otwórz mimo to” i potwierdź hasłem albo odciskiem palca.
+
+Nie wyłączaj zabezpieczeń całego systemu. Jeśli pojawia się inny komunikat, zgłoś go autorowi.
+
+Od wersji 0.1.5 Moozg na Macu nie używa pęku kluczy. Przy pierwszym uruchomieniu po aktualizacji z 0.1.4 lub starszej macOS może jeszcze raz zapytać o dostęp do wpisu Moozg; hasło wpisujesz wyłącznie w oknie macOS.
 
 ### Windows
 
-1. Pobierz `Moozg_0.1.6_x64-setup.exe` i uruchom instalator.
+1. Pobierz `Moozg_0.1.7_x64-setup.exe` i uruchom instalator.
 2. Zainstaluj dla swojego użytkownika (uprawnienia administratora nie są potrzebne) i uruchom Moozg ze skrótu.
 3. Jeśli w systemie brakuje Microsoft Edge WebView2, instalator pobierze ten komponent.
 
@@ -47,8 +52,8 @@ W Moozg 0.1.3 i nowszym otwórz **O aplikacji → Ustawienia → Aktualizacje**.
 
 `SHA256SUMS` w wydaniu zawiera sumy SHA-256 wszystkich plików. Sprawdzenie:
 
-- macOS: `shasum -a 256 Moozg_0.1.6_aarch64.dmg`
-- Windows (PowerShell): `Get-FileHash .\Moozg_0.1.6_x64-setup.exe -Algorithm SHA256`
+- macOS: `shasum -a 256 Moozg_0.1.7_aarch64.dmg`
+- Windows (PowerShell): `Get-FileHash .\Moozg_0.1.7_x64-setup.exe -Algorithm SHA256`
 
 Pliki `.sig` to podpisy minisign kanału aktualizacji, sprawdzane przez aplikację kluczem wbudowanym w Moozg (identyfikator `0347359288D642DE`). Nie są podpisem systemowym Apple ani Microsoft i nie usuwają ostrzeżeń Gatekeepera lub SmartScreen.
 
