@@ -1,15 +1,15 @@
 {
-  "version": "0.1.7",
-  "notes": "Moozg 0.1.7 dodaje w 18 tematach sekcję „Klasyfikacje: ICD-11, ICD-10, DSM-5”. Opisy z ICD-11 są cytatami z polskiego przekładu, a opisy z DSM-5 są parafrazą ze wskazaniem stron polskiego wydania. Kliknięcie w modelu zaznacza strukturę bez ruchu kamery, a dwuklik albo przycisk „Przybliż” przenosi widok. „Wstecz” i klawisz Esc wracają do poprzedniego widoku. Zaznaczona struktura mózgu wyraźnie się wyróżnia, reszta mózgu przygasa, a kamera pokazuje strukturę od jej strony. W modelu kobiety nie ma już pustej przestrzeni w brzuchu. Obracanie modelu daje cichy szum zamiast tyknięć. Poprawiono 12 opisów w Popkulturze.\n\nGdy licencja wygaśnie albo zostanie unieważniona, możesz na ekranie licencji poprosić autora o dostęp. Jeśli licencja zablokuje się w trakcie pracy, niezapisany tekst notatek pozostaje widoczny do skopiowania. Zaktualizowano też bibliotekę zod, w której wykryto błąd bezpieczeństwa. Notatki, ustawienia i licencja zostają bez zmian.\n\nW Moozg 0.1.3 i nowszym otwórz O aplikacji → Ustawienia → Aktualizacje. Jeśli używasz 0.1.1 lub 0.1.2, pobierz instalator DMG dla Maca z Apple Silicon lub EXE dla Windows x64 i zainstaluj go na istniejącej wersji.",
-  "pub_date": "2026-11-15T17:29:10.381Z",
+  "version": "0.1.8",
+  "notes": "Moozg 0.1.8 porządkuje widok Człowiek. Lewa kolumna służy do wybierania i domyślnie zwija się do ikon tematów i zakładek. Po najechaniu pokazuje ich nazwy, a po wyborze zakładki całą zawartość. Pinezka na dole przypina ją na stałe. Opis tematu otwiera się po prawej i ma części Przegląd, Klasyfikacje, Powiązania i Źródła. Kody ICD-11, ICD-10 i DSM-5 są widoczne w nagłówku tematu oraz nad opisem struktury czytanej w tym temacie. Powiązania są pogrupowane według tego, co mierzono, a pewność pokazują trzy kreski. Źródła są zwinięte do krótkich wierszy, pełny opis otwiera się po kliknięciu. Notatki, ustawienia i licencja zostają bez zmian.\n\nW Moozg 0.1.3 i nowszym otwórz O aplikacji → Ustawienia → Aktualizacje. Jeśli używasz 0.1.1 lub 0.1.2, pobierz instalator DMG dla Maca z Apple Silicon lub EXE dla Windows x64 i zainstaluj go na istniejącej wersji.",
+  "pub_date": "2026-11-17T12:24:44.584Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.7/Moozg_0.1.7_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQXdCamNSZDI1c2t6Y21oa1RxU3lWQ29YbWNZYVQ4KzRBNm8xMnpvcURJQnBmelNqNFk0MWpWbFhiZktjY0djaFVPMHphd21LZElHQjVjQ1FSQVV6Y2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzYzNzUwCWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS43Ck5qMUpYN2toRUZTS1FkRDluUjdWZXYwZ2xTMU91Z0hXV085eGhxRVMveldueEpUcUlqUzNQaFo0UXVGcEZCU0VUSC9vS1JsV3Z5WkdPNWUvKzR1S0FBPT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.8/Moozg_0.1.8_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTBLajE0cERvZlBHSXNkeURKaVRIRDVySy83MGdxalBrYVZuTVFRbXptcW1FWHNxQ3Q2ZlBaT3hnNXFlSnNIWG93d296ck1XWURaaUx2MitoZC9GdVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE4Mjg0CWZpbGU6TW9vemcuYXBwLnRhci5negl2ZXJzaW9uOjAuMS44Cm9VendkS2hpbjFEWVFXN2NvWm9hZ0VkeXE1dS9teW83cjBkWGdHQ0VOcG5RZXdqc284MGNCdVBGVVc2S0p6WEhDVit1WExRM2k0WEREMWtFSDNud0JRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.7/Moozg_0.1.7_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQXlTVE8wSWZaeVY5OVlRTUZScWFXUHNkU1RTM3dtYmR6RzZrcmVka2JoTHR0d2VndU8xcFlaRURLbWo1TkI4dnV6ZUZOMTJDQ3A5T3Zlc3JrWk1aM1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzYzNzUwCWZpbGU6TW9vemdfMC4xLjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS43CkNWbkZ1VnZsK3F4aVBlcU5vd2dqU2lMaGd1UGg4QWNrN1lGbk93RUFNNCtQY2VWWXk2NzJIcXY3NXVmUzM4bnB2R0Y2NHlCeXFRMGZMRkw2bVMxYkFRPT0K"
+      "url": "https://github.com/patrygu/moozg-updates/releases/download/v0.1.8/Moozg_0.1.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZVF0YUlralZIQTRHWStIeUdudnlGUXRRVTFiUUkwem01cVg0bGpjRCtMYUl4ZHh4TTZmbFYzZHk2NG0wM3BsblJ6REdscWthTU93a05uSWdITzZhaCt0aUsxZ1FjUkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE4Mjg0CWZpbGU6TW9vemdfMC4xLjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS44CnF6RVU2N01hbFVPbEhBaUJxOFZTVDJqclJaU0FvNWVidTlKRUJoTXFwbGQ5K0dzOHhHMmdyZkFiRG5kdFd1TEZYTk5JS0l5aDRTVnhiekdTVjZGVkJ3PT0K"
     }
   }
 }
